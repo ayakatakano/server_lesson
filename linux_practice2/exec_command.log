@@ -1,0 +1,193 @@
+    1  ls /
+    2  ls /usr
+    3  pwd
+    4  cd /root
+    5  pwd
+    6  cd usr
+    7  cd /usr
+    8  cd /home
+    9  mkdir test1
+   10  ls
+   11  cd/home
+   12  mkdir test2/test3
+   13  mkdir -p test2/test3
+   14  ls test2
+   15  cd /home
+   16  touch test1/index.php
+   17  ls test1
+   18  cd /home/test1 && ls
+   19  cd /home/test1
+   20  cp index.php copy.php
+   21  ls
+   22  cd /home
+   23  mv test2/test3 test3
+   24  ls
+   25  cp -r test1 test4
+   26  li
+   27  ls
+   28  ls test4
+   29  cd /home
+   30  mv test4 test1_copy
+   31  ls
+   32  cd /home
+   33  ls test1
+   34  rm test1/copy.php
+   35  ls test1
+   36  cd /home
+   37  rm -r test3
+   38  ls
+   39  cd /home
+   40  rm test1_copy/*.php
+   41  ls test1_copy
+   42  cat README.md
+   43  cd /home
+   44  cat README.md
+   45  echo '# Hello World' > README.md
+   46  cat README.md
+   47  echo '# Server Lesson' > README.md
+   48  cat README.md
+   49  echo 'Linux Practice' >> README.md
+   50  echo '-----------------' >> README.md
+   51  cat README.md
+   52  cd /home
+   53  vi README.md
+   54  cat README.md
+   55  cd /root
+   56  mkdir server_lesson && cd server_lesson
+   57  yum update -y && yum -y install git
+   58  git version
+   59  git init
+   60  touch first.txt
+   61  ls
+   62  mkdir linux_practice1
+   63  ls
+   64  mkdir public
+   65  ls
+   66  rm public
+   67  ls
+   68  rm -r public
+   69  cd /linux_practice1
+   70  cd linux_practice1
+   71  mkdir public
+   72  cd public
+   73  touch index.php
+   74  cp index.php index_bk.php
+   75  ls
+   76  cd /linux_practice1
+   77  cd linux_practice1
+   78  cd /server_lesson
+   79  cd /root/server_lesson/linux_practice1
+   80  ls
+   81  cp public tmp
+   82  ls
+   83  cp -r public tmp
+   84  ls
+   85  cd tmp
+   86  ls
+   87  rm index_bk.php
+   88  ls
+   89  cd /root/server_lesson
+   90  touch README.md
+   91  cd README.md
+   92  ls
+   93  vi README.md
+   94  cat README.md
+   95  ls
+   96  mkdir linux_practice2
+   97  ls
+   98  cd linux_practice2
+   99  mkdir documents
+  100  ls
+  101  cd documents
+  102  touch gizumo01.md
+  103  ls
+  104  touch gizumo02.md
+  105  touch gizumo03.md
+  106  touch gizumo04.md
+  107  touch gizumo05.md
+  108  touch gizumo06.md
+  109  touch gizumo07.md
+  110  touch gizumo08.md
+  111  touch gizumo09.md
+  112  touch gizumo10.md
+  113  touch gizumo11.md
+  114  touch gizumo12.md
+  115  touch gizumo13.md
+  116  touch gizumo14.md
+  117  touch gizumo15.md
+  118  touch gizumo16.md
+  119  touch gizumo17.md
+  120  touch gizumo18.md
+  121  touch gizumo19.md
+  122  touch gizumo20.md
+  123  touch gizumo21.md
+  124  touch gizumo22.md
+  125  touch gizumo23.md
+  126  touch gizumo24.md
+  127  touch gizumo25.md
+  128  touch gizumo26.md
+  129  touch gizumo27.md
+  130  touch gizumo28.md
+  131  touch gizumo29.md
+  132  touch gizumo30.md
+  133  touch gizumo31.md
+  134  touch gizumo32.md
+  135  touch gizumo33.md
+  136  touch gizumo34.md
+  137  touch gizumo35.md
+  138  touch gizumo36.md
+  139  touch gizumo37.md
+  140  touch gizumo38.md
+  141  touch gizumo39.md
+  142  touch gizumo40.md
+  143  touch gizumo41.md
+  144  touch gizumo42.md
+  145  touch gizumo43.md
+  146  touch gizumo44.md
+  147  touch gizumo45.md
+  148  touch gizumo46.md
+  149  touch gizumo47.md
+  150  touch gizumo48.md
+  151  touch gizumo49.md
+  152  touch gizumo50.md
+  153  ls
+  154  cd -
+  155  mkdir trash
+  156  ls
+  157  cd trash
+  158  mv gizumo20.md gizumo20.md
+  159  ls
+  160  mv /root/server_lesson/linux_practice2/documents/gizumo20.md gizumo20.md
+  161  ls
+  162  mv /root/server_lesson/linux_practice2/documents/gizumo21.md gizumo21.md
+  163  mv /root/server_lesson/linux_practice2/documents/gizumo22.md gizumo22.md
+  164  mv /root/server_lesson/linux_practice2/documents/gizumo23.md gizumo23.md
+  165  mv /root/server_lesson/linux_practice2/documents/gizumo24.md gizumo24.md
+  166  mv /root/server_lesson/linux_practice2/documents/gizumo25.md gizumo25.md
+  167  mv /root/server_lesson/linux_practice2/documents/gizumo26.md gizumo26.md
+  168  mv /root/server_lesson/linux_practice2/documents/gizumo27.md gizumo27.md
+  169  mv /root/server_lesson/linux_practice2/documents/gizumo28.md gizumo28.md
+  170  mv /root/server_lesson/linux_practice2/documents/gizumo29.md gizumo29.md
+  171  mv /root/server_lesson/linux_practice2/documents/gizumo30.md gizumo30.md
+  172  mv /root/server_lesson/linux_practice2/documents/gizumo31.md gizumo31.md
+  173  mv /root/server_lesson/linux_practice2/documents/gizumo32.md gizumo32.md
+  174  mv /root/server_lesson/linux_practice2/documents/gizumo33.md gizumo33.md
+  175  mv /root/server_lesson/linux_practice2/documents/gizumo34.md gizumo34.md
+  176  mv /root/server_lesson/linux_practice2/documents/gizumo35.md gizumo35.md
+  177  mv /root/server_lesson/linux_practice2/documents/gizumo36.md gizumo36.md
+  178  mv /root/server_lesson/linux_practice2/documents/gizumo37.md gizumo37.md
+  179  mv /root/server_lesson/linux_practice2/documents/gizumo38.md gizumo38.md
+  180  mv /root/server_lesson/linux_practice2/documents/gizumo39.md gizumo39.md
+  181  mv /root/server_lesson/linux_practice2/documents/gizumo40.md gizumo40.md
+  182  cd -
+  183  touch .gitignore
+  184  ls
+  185  ls
+  186  touch .gitignore
+  187  ls
+  188  cd .gitignore
+  189  ls
+  190  vi .gitignore
+  191  cat .gitignore
+  192  history 300
+  193  history 300 >> exec_command.log
